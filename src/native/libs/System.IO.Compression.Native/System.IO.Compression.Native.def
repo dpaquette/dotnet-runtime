@@ -20,4 +20,6 @@ EXPORTS
     CompressionNative_Inflate
     CompressionNative_InflateEnd
     CompressionNative_InflateReset
+    ; **DO NOT** expose the inflateGetHeader method here
+    ; More info: https://nvd.nist.gov/vuln/detail/CVE-2022-37434
     CompressionNative_InflateInit2_
